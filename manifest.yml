@@ -1,0 +1,12 @@
+applications:
+- path: .
+  memory: 512M
+  instances: 1
+  domain: mybluemix.net
+  name: aplicacao-de-teste-FelipeLara
+  host: aplicacao-de-teste-FelipeLara
+  disk_quota: 1024M
+  services:
+  - aplicacao-de-teste-FelipeLara-AdvancedMobileAccess
+  - aplicacao-de-teste-FelipeLara-imfpush
+  - aplicacao-de-teste-FelipeLara-cloudantNoSQLDB
